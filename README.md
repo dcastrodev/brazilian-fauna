@@ -36,11 +36,13 @@ O maior desafio deste projeto foi a etapa de **Design e Curadoria**. Diferente d
 ## Layout Preview
 
 ### PC
-<p align="center">
+<div align="center">
 <img src="./src/image/fauna_pc.gif"  width="800"/>
-</p>
+</div>
+<br>
+<hr>
 
 ### Mobile
-<p align="center">
-<img src="./src/image/fauna_mobile.gif"  width="300"/>
-</p>
+<div align="center">
+<img src="./src/image/fauna_mobile.gif" border="2px solid black"  width="300"/>
+</div>
