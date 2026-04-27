@@ -1,0 +1,185 @@
+html, body, img, .pageName, .options {
+  width: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Public Sans", serif;
+}
+
+/* -----------------  HEADER ---------------- */
+
+.header {
+  position: relative;
+  background-color: rgba(105, 120, 28, 0.3);
+  width: 100%;
+  height: 149px;
+  display: flex;
+}
+
+.video-bcg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.header .logo {
+  margin: auto;
+  width: 220px;
+}
+.header .logo:hover {
+  /* filter: drop-shadow(1px 1px 2px #b1b0b0); */
+  filter: drop-shadow(0px 0px 2px #ffffff);
+}
+
+/* -----------------  MAIN ---------------- */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pageName h1 {
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  font-weight: 100;
+  background-color: #488648;
+}
+
+.main .content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  max-width: 712px;
+}
+
+.main figure {
+  width: 286px;
+  height: 328px;
+  background: url("../image/natureza-inicial.png") no-repeat center center;
+  background-size: cover;
+}
+
+.content .description {
+  box-sizing: border-box;
+  max-width: 423px;
+  border: 1px solid #363636;
+  padding: 30px;
+}
+.description h2 {
+  font-weight: 200;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* --------------- OPTIONS ---------------- */
+
+.options {
+  margin-top: 20px;
+  box-sizing: border-box;
+  border: 1px solid #363636;
+  margin-top: 20px;
+  max-width: 711px;
+  min-height: 199px;
+  display: flex;
+  flex-direction: column;
+}
+
+.options h2 {
+  border-bottom: 1px solid #969595;
+  background-color: #3e4930;
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+  text-align: center;
+  padding-bottom: 5px;
+  box-sizing: border-box;
+}
+
+.options ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: auto 0px;
+}
+
+.options li {
+  display: flex;
+  gap: 19px;
+  height: 94px;
+  width: 110px;
+}
+
+.options ul > li > a {
+  margin: auto;
+  height: 74px;
+  width: 90px;
+
+  border-radius: 10px;
+  filter: saturate(0);
+  opacity: 0.8;
+  transition: 0.3s ease-in-out;
+}
+
+.options ul > li > a:hover {
+  height: 94px;
+  width: 110px;
+  filter: none;
+  opacity: 1;
+}
+
+.options > ul > li > .selected {
+  opacity: 0.9;
+}
+.options > ul > li > .selected:hover {
+  height: 74px;
+  width: 90px;
+  filter: saturate(0);
+  opacity: 0.9;
+  cursor: default;
+}
+
+li > .onca-pintada {
+  background-image: url("../image/onça-pintada.jpg");
+  background-size: cover;
+}
+li > .capivara {
+  background-image: url("../image/capivara.png");
+  background-size: cover;
+}
+li > .tucano {
+  background-image: url("../image/tucano.jpg");
+  background-size: cover;
+}
+li > .arara {
+  background-image: url("../image/arara.jpg");
+  background-size: cover;
+}
+
+/* ----------Footer---------- */
+.footer {
+  display: flex;
+  border-radius: 0 0 5px 5px;
+  border: 1px solid;
+  box-sizing: border-box;
+  width: 709px;
+  height: 50px;
+  margin-bottom: 5px;
+  background-color: #343a2c;
+}
+
+.footer p {
+  margin: auto;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 100;
+}

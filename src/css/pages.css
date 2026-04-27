@@ -1,0 +1,234 @@
+/* ----------Info ----------------- */
+
+section.info {
+  box-sizing: border-box;
+  border: 1px solid #363636;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 710px;
+  min-height: 200px;
+}
+
+.info > h2 {
+  border-bottom: 1px solid #969595;
+  background-color: #9c7350;
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+  text-align: center;
+  padding-bottom: 5px;
+  box-sizing: border-box;
+}
+
+.info .links {
+  display: flex;
+  margin: auto;
+}
+
+.links div {
+  min-height: 160px;
+  max-height: auto;
+  width: 345px;
+  padding: 15px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.links > div > a {
+  margin-top: auto;
+  align-self: flex-start;
+}
+
+.links p {
+  font-size: 15px;
+}
+
+.links h3 {
+  font-size: 16px;
+  margin-bottom: 7px;
+}
+
+button {
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid #f3821f;
+  color: #f3821f;
+  transition: 0.3s ease-in-out;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #f3821f;
+  color: white;
+}
+
+/* ------------- figure --------------- */
+
+.main figure.img-onca {
+  background: url("../image/onça-pintada.jpg") no-repeat center center;
+  background-size: cover;
+}
+.main figure.img-capivara {
+  background: url("../image/capivara.png") no-repeat center center;
+  background-size: cover;
+}
+.main figure.img-tucano {
+  background: url("../image/tucano.jpg") no-repeat center center;
+  background-size: cover;
+}
+.main figure.img-arara {
+  background: url("../image/arara-lateral.png") no-repeat center center;
+  background-size: cover;
+}
+
+/* ------------------arara-------------------- */
+
+body > .header-arara {
+  background-color: rgba(45, 79, 99, 0.3);
+}
+
+.pageName-arara > h1 {
+  background-color: #244988;
+}
+
+.options h2 {
+  background-color: #353c46;
+}
+
+.info-arara h2 {
+  background-color: #365385;
+}
+
+.button-arara {
+  margin-top: 15px;
+  border: 1px solid #0692ea;
+  color: #0692ea;
+}
+
+.button-arara:hover {
+  background-color: #3ab6ab;
+  color: white;
+}
+
+.footer-arara {
+  background-color: #353c46;
+  margin-bottom: 5px;
+}
+
+.footer-arara p {
+  color: #ffffff;
+}
+
+/* -----------------CAPIVARA------------------------ */
+
+body > .header-capivara {
+  background-color: rgba(135, 74, 42, 0.4);
+}
+
+.pageName-capivara > h1 {
+  background-color: rgb(185, 119, 90);
+}
+
+.options-capivara h2 {
+  background-color: #443f38;
+}
+
+.info-capivara h2 {
+  background-color: rgb(156, 103, 80);
+}
+
+.button-capivara {
+  margin-top: 15px;
+  border: 1px solid #aa663c;
+  color: #aa663c;
+}
+
+.button-capivara:hover {
+  background-color: #f19346;
+  color: white;
+}
+
+.footer-capivara {
+  background-color: #443f38;
+  margin-bottom: 5px;
+}
+
+.footer-capivara p {
+  color: #ffffff;
+}
+
+/* -----------------ONÇA----------------------- */
+
+.header.header-onca {
+  background-color: rgba(131, 104, 90, 0.3);
+}
+
+.pageName-onca > h1 {
+  background-color: #745f53;
+}
+
+.options.options-onca h2 {
+  background-color: #363636;
+}
+
+.info-onca h2 {
+  background-color: #9c7350;
+}
+
+.button-onca {
+  margin-top: 15px;
+  border: 1px solid #ec750c;
+  color: #ec750c;
+}
+
+.button-onca:hover {
+  background-color: #f58c30;
+  color: white;
+}
+
+.footer-onca {
+  background-color: #363636;
+}
+
+.footer-onca p {
+  color: #ffffff;
+}
+
+/* -----------------TUCANO-------------------- */
+
+body > .header-tucano {
+  background-color: rgba(117, 103, 132, 0.4);
+}
+
+.pageName-tucano > h1 {
+  background-color: #b34258;
+}
+
+.options-tucano h2 {
+  background-color: #473939;
+}
+
+.info-tucano h2 {
+  background-color: #b45467;
+}
+
+.button-tucano {
+  margin-top: 15px;
+  border: 1px solid #d62511;
+  color: #d62511;
+}
+
+.button-tucano:hover {
+  background-color: #f05a6e;
+  color: white;
+}
+
+.footer-tucano {
+  background-color: #363636;
+  margin-bottom: 5px;
+}
+
+.footer-tucano p {
+  color: #ffffff;
+}
