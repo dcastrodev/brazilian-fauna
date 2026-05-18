@@ -1,9 +1,11 @@
 # Brazilian Fauna Institute 🐆
-<!-- 🐾 -->
 
 O Fauna Brazilian Institute é um projeto autoral, desenvolvido do zero — desde a concepção do layout até a implementação do código ( sem uso de frameworks). O projeto apresenta um instituto dedicado à proteção de espécies ameaçadas, focado na conscientização e na captação de recursos para centros de conservação na fauna brasileira.
 
-<a href="https://dcastrodev.github.io/brazilian-fauna/">🔗 Live Demo</a>
+## 📍 Live Demo
+Veja o projeto no seu navegador:
+
+<a href="https://dcastrodev.github.io/brazilian-fauna/"><strong>🔗 Click to View</strong></a>
 
 ## Objetivo do Projeto
 
